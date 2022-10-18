@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 app.use('/', require('./routes/server'));
 
-const port = process.env.PORT || 2222;
+const port = process.env.PORT || 2022;
 
 app.listen(port,()=>{
     console.log(`Listening: http://localhost:${port}`);
